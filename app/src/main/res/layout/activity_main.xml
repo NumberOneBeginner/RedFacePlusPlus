@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rl_content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/background7"
+    android:orientation="vertical"
+    tools:context="com.example.peter.redfaceplusplus.activities.LoginActivity">
+
+    <include layout="@layout/title_table" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_margin="20dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Welcome"
+            android:textColor="@color/whiter"
+            android:textSize="38sp" />
+
+        <android.support.v7.widget.AppCompatEditText
+            android:id="@+id/ed_email"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/edit_background"
+            android:gravity="center"
+            android:hint="@string/name"
+            android:maxLength="23"
+            android:maxLines="1"
+            android:textCursorDrawable="@drawable/color_cursor"
+            android:textSize="18sp" />
+
+        <android.support.v7.widget.AppCompatEditText
+            android:id="@+id/ed_pws"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="40dp"
+            android:maxLines="1"
+            android:maxLength="12"
+            android:textCursorDrawable="@drawable/color_cursor"
+            android:background="@drawable/edit_background"
+            android:gravity="center"
+            android:hint="@string/password"
+            android:inputType="textPassword"
+            android:textSize="18sp" />
+
+
+        <Button
+            android:id="@+id/btn_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:background="@color/colorPrimary"
+            android:text="@string/login"
+            android:textAllCaps="false"
+            android:textColor="@color/whiter"
+            android:textSize="18sp" />
+        <!--<android.support.v7.widget.AppCompatCheckBox-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_margin="15dp"-->
+            <!--android:layout_gravity="right"-->
+            <!--android:textColor="@color/whiter"-->
+            <!--android:background="@null"-->
+            <!--android:text="Remember to log in"/>-->
+    </LinearLayout>
+
+    <!--<LinearLayout-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="0dp"-->
+    <!--android:layout_weight="5"-->
+    <!--android:background="#f7f8fa">-->
+
+    <!--<ImageView-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_gravity="center"-->
+    <!--android:background="@mipmap/introduction" />-->
+    <!--</LinearLayout>-->
+
+
+    <!--<LinearLayout-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="0dp"-->
+    <!--android:layout_weight="6"-->
+    <!--android:orientation="vertical">-->
+
+    <!--<TextView-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="80dp"-->
+    <!--android:layout_margin="10dp" />-->
+
+
+    <!--<Button-->
+    <!--android:id="@+id/btn_login"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_marginLeft="10dp"-->
+    <!--android:layout_marginRight="10dp"-->
+    <!--android:layout_marginTop="30dp"-->
+    <!--android:background="#f16604"-->
+    <!--android:text="@string/login"-->
+    <!--android:textAllCaps="false"-->
+    <!--android:textColor="@color/whiter"-->
+    <!--android:textSize="18sp" />-->
+
+    <!--<TextView-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_gravity="center"-->
+    <!--android:layout_margin="10dp"-->
+    <!--android:text="@string/guide"-->
+    <!--android:textSize="14sp" />-->
+    <!--</LinearLayout>-->
+</RelativeLayout>

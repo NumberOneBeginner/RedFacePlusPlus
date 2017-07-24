@@ -1,0 +1,18 @@
+<resources>
+    <!--<string name="app_name">RedFacePlusPlus</string>-->
+    <string name="app_name">#red</string>
+    <string name="title">HSBC Face++ Management</string>
+    <string name="login">Login management</string>
+    <string name="guide">Click Top Button To Start Face++</string>
+    <string name="name">please enter your email</string>
+    <string name="password">please enter your password</string>
+    <string name="dialogtitle">Landing in</string>
+    <string name="dialogmessage">Is landing, please later</string>
+    <string name="inputhint">Input your  name</string>
+    <string name="employee">Employee</string>
+    <string name="visitors">Visitors</string>
+    <string name="vip">VIP</string>
+    <string name="add">Commit</string>
+    <string name="start">Please select start time</string>
+    <string name="end">Please select end time</string>
+</resources>

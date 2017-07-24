@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="green">#20a6cf</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name ="black">#000000</color>
+    <color name ="whiter">#ffffff</color>
+    <color name ="gray">#b7b7b7</color>
+    <color name="grayq">#dfdddd</color>
+    <color name="lable_blue">#3DB0FD</color>
+    <color name="stroke">#cac7c7</color>
+    <color name="blue_text">#0c91f7</color>
+    <color name="gray_text">#909497</color>
+</resources>
